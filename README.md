@@ -32,9 +32,9 @@ Se habilitó **Allow Activities** y se agregó el objeto a la app **Sales** medi
 
 Se demostraron las tres actividades sobre el registro de Engagement "Consulting Project Alpha":
 
-- ✅ **Log a Call** – Task con Type = Call
-- ✅ **Email** – Enviado desde el registro, visible en el Activity Timeline
-- ✅ **Event** – Meeting creado sobre el registro
+- [x] **Log a Call** – Task con Type = Call
+- [x] **Email** – Enviado desde el registro, visible en el Activity Timeline
+- [x] **Event** – Meeting creado sobre el registro
 
 **Screenshots:**
 
