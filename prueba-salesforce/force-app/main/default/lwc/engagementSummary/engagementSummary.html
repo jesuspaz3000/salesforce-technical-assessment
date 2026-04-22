@@ -1,0 +1,25 @@
+<template>
+    <lightning-card title="Engagement Summary" icon-name="standard:opportunity">
+        <div class="slds-m-around_medium">
+            
+            <p><strong>Opportunity Amount:</strong> 
+                {opportunityAmount}
+            </p>
+            <p><strong>Completed Tasks:</strong> {completedTasks}</p>
+            <p><strong>Upcoming Events:</strong> {upcomingEvents}</p>
+
+            <div class="slds-m-top_medium">
+                <lightning-button 
+                    label="Quick Follow-Up Call" 
+                    onclick={handleFollowUpCall}
+                    variant="brand">
+                </lightning-button>
+            </div>
+
+            <template if:true={message}>
+                <p class="slds-m-top_small">{message}</p>
+            </template>
+
+        </div>
+    </lightning-card>
+</template>
